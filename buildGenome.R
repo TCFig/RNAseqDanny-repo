@@ -1,5 +1,3 @@
-#!/usr/bin/env Rscript
-
 # Download Saccharomyces Cerevisiae genome
 # copyright (c) 2022 - Danny Arends
 #
