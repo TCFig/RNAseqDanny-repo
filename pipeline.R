@@ -17,7 +17,7 @@ execute <- function(x, outputfile = NA, intern = FALSE, quitOnError = FALSE){
 
 #Static variables
 input.dir <- "~/data/raw"
-input.base <- "SRR13978643"  #Get from the command line
+input.base <- "SRR13978643" 
 output.dir <- paste0("~/data/output/", input.base,".aln")
 genome.path <- "~/genome/STAR/"
 ref.fa.gz <- "~/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa.gz"
