@@ -1,0 +1,19 @@
+### STAR   --runMode genomeGenerate      --runThreadN 2   --genomeDir /home/tifigo/genome/STAR   --genomeFastaFiles /home/tifigo/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa      --genomeSAindexNbases 10   --sjdbGTFfile /home/tifigo/genome/Saccharomyces_cerevisiae.R64-1-1.109.gtf
+### GstrandBit 32
+versionGenome	2.7.4a
+genomeType	Full
+genomeFastaFiles	/home/tifigo/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa 
+genomeSAindexNbases	10
+genomeChrBinNbits	18
+genomeSAsparseD	1
+genomeTransformType	None
+genomeTransformVCF	-
+sjdbOverhang	100
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	/home/tifigo/genome/Saccharomyces_cerevisiae.R64-1-1.109.gtf
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
+genomeFileSizes	14753228 100896720
