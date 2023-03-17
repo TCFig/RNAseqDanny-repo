@@ -8,7 +8,7 @@ The present code is only from the second class, since the first class is only fo
 The pipeline is composed of:
 - Trimmomatric, for read trimming and adapter removal
 - STAR, to perform the splice aware alignment
-- picard, to remove duplicate reads (due to pcr)
+- picard, to remove duplicate reads (due to pcr amplification)
 - gatk, to do INDEL realignment and base recalibration
 
 The script entitled buildGenome.R was used to create a primary assembly from the chromossomes available from ensembl (https://ftp.ensembl.org/pub/release-109/fasta/saccharomyces_cerevisiae/dna/). This was done because the database only had the genome TopLevel fasta file.
